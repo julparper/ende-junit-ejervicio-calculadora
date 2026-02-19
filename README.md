@@ -14,7 +14,7 @@ Haz un fork de este proyecto en tu repositorio de Github y contesta a las siguie
 
 ## Instrucciones
 
-El alumno deberá hacer un fork de este proyecto, poner el repositorio como **privado**, agregar al profesor como colaborador (julparper) e implementar la solución solicitada (preguntas y código).
+El alumno deberá hacer un fork de este proyecto e implementar la solución solicitada (preguntas y código).
 
 >Se deberá utilizar este fichero, y los artefactos de código del proyecto, para resolver el ejercicio.
 
