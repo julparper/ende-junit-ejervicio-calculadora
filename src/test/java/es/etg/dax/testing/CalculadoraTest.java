@@ -56,4 +56,16 @@ public class CalculadoraTest {
         assertEquals(OperacionNoValidaException.MSG, ex.getMessage());
 
     }
+
+    @Test
+    @DisplayName("Pruebas de división normales y con negativos")
+    void pruebasDivisionCajaNegra() {
+        assertAll("Division",
+            () -> assertEquals(5, calculadora.dividir(10, 2), "10 / 2 = 5"),
+            () -> assertEquals(-5, calculadora.dividir(-10, 2), "-10 / 2 = -5"),
+            () -> assertEquals(-5, calculadora.dividir(10, -2), "10 / -2 = -5"),
+            () -> assertEquals(5, calculadora.dividir(-10, -2), "-10 / -2 = 5"),
+            () -> assertEquals(0, calculadora.dividir(0, 5), "0 / 5 = 0")
+        );
+    }
 }
